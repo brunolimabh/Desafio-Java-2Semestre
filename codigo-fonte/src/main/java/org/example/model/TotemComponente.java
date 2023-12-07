@@ -61,9 +61,11 @@ public class TotemComponente {
     @Override
     public String toString() {
         return "TotemComponente{" +
-                "nome=" + fkComponente +
+                "fkComponente=" + fkComponente +
                 ", fkTotem=" + fkTotem +
                 ", valor=" + valor +
+                ", alerta=" + alerta +
+                ", critico=" + critico +
                 '}';
     }
 }

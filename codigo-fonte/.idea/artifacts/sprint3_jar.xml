@@ -2,7 +2,7 @@
   <artifact type="jar" name="sprint3:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/sprint3_jar</output-path>
     <root id="archive" name="sprint3.jar">
-      <element id="module-output" name="desafio-java" />
+      <element id="module-output" name="codigo-fonte" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.25.RELEASE/spring-jcl-5.2.25.RELEASE.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.25.RELEASE/spring-core-5.2.25.RELEASE.jar" path-in-jar="/" />

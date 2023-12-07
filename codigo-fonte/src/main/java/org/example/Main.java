@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.model.Componente;
+import org.example.model.TipoComponente;
 import org.example.task.InserirRegistroTask;
 import org.example.database.BancoMySQLLocal;
 import org.example.database.BancoSQLServer;
@@ -66,22 +68,48 @@ public class Main {
 
                             escolha = inputNumber.nextInt();
 
-                            /*if (escolha == 1) {
-                                System.out.println("Qual o nome da máquina?");
-                                String nome = inputString.nextLine();
-                                System.out.println("Qual é o estado do ");
+                            if (escolha == 1) {
+                                System.out.println("Está função não está funcionando, AINDA!");
+                                System.out.println("Tente outra opção!");
 
-                            } else*/ if (escolha >= 2 && escolha <= totens.size() + 2) {
+                            } else if (escolha >= 2 && escolha <= totens.size() + 2) {
                                 Totem totemAtual = totens.get(escolha - 2);
 
                                 do {
                                     System.out.println("Deseja começar o monitoramento?");
                                     System.out.println("0 - Não, voltar!");
-                                    System.out.println("1 - Não, ajustar métricas!");
+                                    System.out.println("1 - Não, redefinir métricas! (Em Breve)");
                                     System.out.println("2 - Sim, entre 5-20 segundos!");
                                     escolha = inputNumber.nextInt();
 
                                     if (escolha == 1){
+                                        System.out.println("Está função não está funcionando, AINDA!");
+                                        System.out.println("Tente outra opção!");
+
+                                        /*do {
+                                            List<TotemComponente> totemComponentes= mySql.Conexao().query("SELECT * FROM TotemComponente WHERE fkTotem = ?",
+                                                    new TotemComponenteRowMapper(),
+                                                    totemAtual.getIdTotem());
+
+                                            System.out.println("Qual métrica você deseja redefinir?");
+                                            System.out.println("0 - Voltar!");
+                                            for (int i = 0; i < totemComponentes.size(); i++) {
+                                                TipoComponente componenteEncontrado = TipoComponente.of(totemComponentes.get(i).getFkComponente());
+
+                                                System.out.println("%d - %s (alerta: %d, critico: %d)".formatted(
+                                                        i+1,
+                                                        componenteEncontrado,
+                                                        totemComponentes.get(i).getAlerta(),
+                                                        totemComponentes.get(i).getCritico()));
+                                            }
+                                            escolha = inputNumber.nextInt();
+
+                                            if (escolha >= 1 && escolha <= totens.size() + 1){
+                                                TotemComponente componenteAtual = totemComponentes.get(escolha - 1);
+                                                System.out.println(componenteAtual);
+                                            }
+
+                                        }while (escolha != 0);*/
 
                                     } else if (escolha == 2){
                                         List<TotemComponente> totemComponentes= mySql.Conexao().query("SELECT * FROM TotemComponente WHERE fkTotem = ?",
