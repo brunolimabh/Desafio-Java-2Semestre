@@ -1,8 +1,6 @@
 # Desafio Java 2° Semestre
 
 <p> Projeto da disciplna Linguagem de Programação da faculdade SPTech: Monitoramento de Sistema com Princípios SOLID </p>
-  ![Status](https://img.shields.io/badge/Status_do_projeto-Em_Andamento-yellow)
-  <br>
   
 <h2>Objetivo</h2>
 
