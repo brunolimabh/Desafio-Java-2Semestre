@@ -1,7 +1,9 @@
 # Desafio Java 2° Semestre
 
 <p> Projeto da disciplna Linguagem de Programação da faculdade SPTech: Monitoramento de Sistema com Princípios SOLID </p>
-
+  ![Status](https://img.shields.io/badge/Status_do_projeto-Em_Andamento-yellow)
+  <br>
+  
 <h2>Objetivo</h2>
 
 <p> Desenvolver um aplicativo Java para monitoramento de recursos do sistema, aderindo aos princípios SOLID e utilizando a biblioteca Looca (API que coleta dados de maquina desenvolvida para facilitar o aprendizado em contextos acadêmicos, visando ajudar os alunos da Faculdade SPTech em projetos na disciplina de Pesquisa e Inovação.
@@ -34,8 +36,6 @@ Ou seja o sistema sempre consultará essa tabela para saber o que deve ser lido.
 ![Github Badge](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Github Badge](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-  ![Status](https://img.shields.io/badge/Status_do_projeto-Em_Andamento-yellow)
-  <br>
 
 
 
