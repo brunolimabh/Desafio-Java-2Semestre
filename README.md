@@ -1,6 +1,6 @@
 # Desafio Java 2° Semestre
 
-<p> Projeto da disciplna Linguagem de programação da faculdade SPTech: Monitoramento de Sistema com Princípios SOLID </p>
+<p> Projeto da disciplna Linguagem de Programação da faculdade SPTech: Monitoramento de Sistema com Princípios SOLID </p>
 
 <h2>Objetivo</h2>
 
