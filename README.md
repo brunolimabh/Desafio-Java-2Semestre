@@ -1,7 +1,12 @@
 # Desafio Java 2° Semestre
 
 <p> Projeto da disciplna Linguagem de Programação da faculdade SPTech: Monitoramento de Sistema com Princípios SOLID </p>
-  
+
+<h2>Contexto</h2>
+
+<p> Problemas frequentes de lentidão e atrasos nos aeroportos, causando prejuízos e danos à imagem das companhias aéreas. Em 2023, um atraso resultou em indenização de 10 mil reais para um casal. O uso excessivo de totens de check-in contribui para filas e insatisfação. Com isso, foi criado o serviço AirWay, da empresa ConWay, com propósito de monitorar o desempenho dos totens de Check-in dos nossa clientes nos aeroportos do Brasil, para assegurar processos indesejados, diminuir custos com manutenções, prevenir perdas de componentes, relatórios mensais, entre outros.
+</p>
+
 <h2>Objetivo</h2>
 
 <p> Desenvolver um aplicativo Java para monitoramento de recursos do sistema, aderindo aos princípios SOLID e utilizando a biblioteca Looca (API que coleta dados de maquina desenvolvida para facilitar o aprendizado em contextos acadêmicos, visando ajudar os alunos da Faculdade SPTech em projetos na disciplina de Pesquisa e Inovação.
